@@ -7,11 +7,7 @@ type Page = {
   likes: number,
   accounts: [],
   status: 'open'|'close',
-  details: {
-    createAt: Date,
-    update: Date,
-  }
-}
+ }
 const page1 = {
   title: 'The awesome page',
   likes: 100,
